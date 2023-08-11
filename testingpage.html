@@ -1,4 +1,18 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <!--This is where I put things such as style-->
+        <!--Internal CSS (trumps external CSS)-->
+        <style>
+            h1 {
+                color: blue; 
+                background-color:white;
+            }
+        </style>
+
+        <!--External CSS (under internal CSS)-->
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
     <h1> Testing Page for Learning HTML</h1>
     <p> <a href="index.html"> Back to Homepage </a></p>
@@ -28,6 +42,13 @@
         has a lightcyan background and dark red text.
     </p>
 
+    <p style="border:2px solid Tomato;"> This text has a solid Tomato border</p>
+    <p style="border:2px dashed royalblue;"> And this text has a dashed, large royal blue border. </p>
+    <p style="background-color:rgb(255 97 71);"> You can do RGB values,</p>
+    <p style="background-color:#ff14;"> FF values,</p>
+    <p style="background-color:hsl(88, 41%, 31%);"> HSL values,</p>
+    <p style="background-color:rgb(188, 100, 100, 0.3);"> and any of them with transparency.</p>
+
     <p style="font-family:Impact; font-size:250%;">
         This whole paragraph <br>
         has Impact font text and a 250% font size.
@@ -45,7 +66,7 @@
         What happens when you take H<sub>2</sub>O and square it, <sup>2</sup>? You get H<sub>2</sub>O<sup>2</sup>, of course!
     </p>
 
-    <br>
+    <br> <hr>
     <p> Here's some quotation stuff! <br>
         
         A quote from the wise mouth of Joshua Santy: <blockquote cite="mrjoshie333.github.io/index.html">
@@ -69,10 +90,12 @@
         Josh has made many covers of songs, including <cite>Memories</cite>, which was originally by Maroon5. <br>
         Josh is so talented, he can even speak backwards! Watch: <bdo dir="rtl"> Guys you won't believe it, I am such a talented HTML developer!</bdo>
 
-    </p>
+    </p> <hr>
+
+    <!--This is a comment!-->
 
    
 
 </body>
-
+</html>
 
